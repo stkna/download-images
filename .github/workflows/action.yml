@@ -2,7 +2,9 @@ name: Python Action
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
+    paths:
+      - 'lista_urls.txt'
 
 jobs:
   build:
