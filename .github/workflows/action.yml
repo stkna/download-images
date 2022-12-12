@@ -8,8 +8,9 @@ on:
 
 jobs:
   build:
+    name: Donwload
     runs-on: ubuntu-latest
-
+    id: donwload
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python
