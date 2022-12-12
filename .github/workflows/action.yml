@@ -3,8 +3,7 @@ name: Python Action
 on:
   push:
     branches: [ master ]
-    paths:
-      - 'lista_urls.txt'
+
 jobs:
   build:
     runs-on: ubuntu-latest
